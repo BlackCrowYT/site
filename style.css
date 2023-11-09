@@ -1,0 +1,105 @@
+body {
+	font-family: 'Nunito', cursive;
+	margin: 0;
+}
+
+header nav{
+	text-decoration: none;
+	color: white;
+}
+
+.background {
+	height: 100vh;
+	width: 100wh;
+}
+
+.position {
+	height: 100vh;
+	width: 100wh;
+	display: grid;
+	place-items: center;
+}
+
+.main {
+	width: 80%;
+	margin: 2em;
+	padding: 1em;
+	border-radius: 1cm;
+	background-color: #222222;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+	overflow: hidden;
+}
+
+.main2 {
+	width: 80%;
+	margin: 2em;
+	padding: 1em;
+	border-radius: 1cm;
+	background-color: #222222;
+	color: white;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+	overflow: hidden;
+}
+
+.main .logo {
+	padding: 8px;
+	height: 5cm;
+	border-radius: 50%;
+}
+
+.main2 button {
+	background-color: #1a4beb;
+	color: #ffffff;
+	border: none;
+	padding: 1em;
+	border-radius: 1em;
+	margin: 1em;
+}
+
+.main button {
+	background-color: #1a4beb;
+	color: #ffffff;
+	border: none;
+	padding: 1em;
+	border-radius: 1em;
+	margin: 1em;
+}
+
+.project {
+	margin: 15em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #252525;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.project img {
+	border-radius: 2em;
+	width: 15em;
+}
+
+.project button {
+	background-color: #3e51ff;
+	color: #fff;
+	border: none;
+	padding: 1em;
+	border-radius: 1em;
+	margin: 1em;
+}
+
+.main .images img {
+	width: 15mm;
+	margin: 2mm;
+	filter: invert(100%);
+}
